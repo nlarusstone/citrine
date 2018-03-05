@@ -1,0 +1,22 @@
+{
+  "name": "Materials API",
+  "description": "A barebones materials api, which allows users to add materials to a DB and query it",
+  "image": "",
+  "repository": "",
+  "keywords": ["python"],
+  "addons": [ "heroku-postgresql" ],
+  "env": {
+    "SECRET_KEY": {
+      "description": "The secret key",
+      "generator": "secret"
+    }
+  },
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "python manage.py collectstatic --noinput",
+        "test": "python manage.py test"
+      }
+    }
+  }
+}
