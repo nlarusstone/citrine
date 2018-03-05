@@ -1,5 +1,5 @@
 # APIs
-This API can be accessed at https://guarded-tor-83045.herokuapp.com/
+This API can be accessed at https://obscure-beyond-29233.herokuapp.com/
 This API allows users to add materials to a database and search through that database.
 Materials are specified as "compounds" and information about them is referred to as "properties".
 This API is case sensitive.
@@ -69,5 +69,5 @@ One minor point is that the endpoints do not align very well with REST practices
 Instead, one might change the add end point to /data/materials and allow GET requests to read all of the materials in the database and POST requests to add to the materials.
 
 # Deployment
-This API is currently deployed on Heroku and should be accessible at 
+This API is currently deployed on Heroku and should be accessible at https://obscure-beyond-29233.herokuapp.com/
 If you need to deploy it locally, running heroku local web from the root directory should work (assuming heroku cli tools are installed)
