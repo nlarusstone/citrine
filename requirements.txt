@@ -10,7 +10,7 @@ itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
 mccabe==0.6.1
-numpy==1.14.0
+numpy==1.22.0
 pandas==0.22.0
 pew==1.1.2
 psycopg2==2.7.3.2
